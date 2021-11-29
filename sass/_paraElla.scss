@@ -1,0 +1,67 @@
+#paraEllaTitulo{
+    text-align: center;   
+    text-transform: uppercase;
+    font-size: 30px;
+    margin-top: 6%;
+}
+
+.catalogoParaElla{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+    grid-template-rows: 1fr 1fr;
+    width: auto;
+    height: auto;
+    margin: 0 auto;
+    padding: 20px;
+    justify-content: space-evenly;
+uj
+    div{
+        text-align: center;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 8px;
+        margin: auto;
+
+        img{
+            height: 595px;
+            width: 396px;
+            border: 1px solid black;
+        }
+        p{
+            font-size: 17.5px;
+        }
+    }
+}
+
+@media screen and (max-width: 360px){
+    
+
+    .catalogoParaElla{
+        display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    width: auto;
+    height: auto;
+    margin: 0 auto;
+    padding: 30px;
+    justify-content: space-evenly;
+
+        div{
+            text-align: center;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 8px;
+        margin-top: 10%;
+
+            img{
+                height: 180px;
+                width: 120px;
+                border: 1px solid silver;
+            }
+
+            p{
+                font-size: 8px;
+            }
+        }
+    }
+}

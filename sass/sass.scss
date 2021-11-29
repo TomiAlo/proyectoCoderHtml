@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #f0efeb;
+}
+main{
+    color: black;
+    font-family: 'Noto Sans Mono', monospace; font-size: normal; font-style: normal;
+    font-variant: normal; font-weight: 400; line-height: 30px;
+
+    overflow: hidden;
+}
+
+
+@import "_menu";
+@import "_primerasImagenes";
+@import "_newsletter";
+@import "_ultimasImagenes";
+@import "_footer";
+@import "_paraEl";
+@import "_paraElla";
+@import "_carrito";
+@import "_contacto";
