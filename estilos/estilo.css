@@ -233,19 +233,19 @@ footer .mb-4 .instagram {
   padding: 20px;
   justify-content: space-evenly;
 }
-.catalogoParaElla uj div {
+.catalogoParaElla div {
   text-align: center;
   padding-left: 20px;
   padding-right: 20px;
   padding-bottom: 8px;
   margin: auto;
 }
-.catalogoParaElla uj div img {
+.catalogoParaElla div img {
   height: 595px;
   width: 396px;
   border: 1px solid black;
 }
-.catalogoParaElla uj div p {
+.catalogoParaElla div p {
   font-size: 17.5px;
 }
 
